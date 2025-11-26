@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body bgcolor="bisque"></body>
+
+<table border="2" height="100%" width="60%" cellpadding="15" align="center" bgcolor="white">
+    <tr>
+        <td>
+            <h1>Register Yourself For Interview</h1>
+<form method="post">
+    <label for="myname">First Name:</label>
+    <input type="text" id="myname" name="fname" placeholder="Enter firstname"><br><br>
+
+    <label for="mylname">Last Name:</label>
+    <input type="text" id="mylname" name="lname" placeholder="Enter lastname"><br><br>
+    
+    <label for="myage">Age:</label>
+    <input type="number" id="myage" name="age" placeholder="Enter Your age"><br><br>
+    
+    <label for="mydob">Date Of Birth</label>
+    <input type="date" id="mydob" placeholder="dd-mm-yyyy"><br><br>
+    
+    <label for="myemail">Email:</label>
+    <input type="email" id="myemail" placeholder="Enter email"><br><br>
+    
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" placeholder="password">
+
+    <p>How many years of experience do you have?</p>
+    <input type="radio" value="fresher" id="fresher" name="experience">
+    <label for="fresher">fresher</label><br>
+
+    <input type="radio" value="One year" id="one year" name="experience">
+    <label for="one year">one year</label><br>
+
+    <input type="radio"  value="More than One Year" id="more than one year" name="experience">
+    <label for="more than one year">more than one year</label>
+
+    <br>
+    <br>
+    <label for="mycolor">Your Favourite color:</label>
+    <input type="color" value="none" id="mycolor">
+    <br>
+    <br>
+    <label for="favlang" name="language">choose a programming langauge</label>
+    <select id="favlang" name="Language">
+       
+        <option value="java">java</option>
+        <option value="python">python</option>
+        <option value="php">php</option>
+        <option value="ruby">ruby</option>
+        <option value="java script">java script</option>
+
+        
+    </select><br>
+    <br>
+    <label for="hire">tell us why we should hire you</label><br>
+    <textarea 
+    id="hire"
+    rows="10" 
+    cols="30">
+    </textarea>
+    <br>
+    <input type="reset" value="reset">
+    <input type="submit" value="submit">
+        </td>
+    </tr>
+</table>
+
+</form>
+</html>

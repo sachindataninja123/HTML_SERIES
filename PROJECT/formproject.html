@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registartion Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form align="justified">
+        <label for="roll" >Roll no : </label>
+        <input type="text" name="myname" id="roll" placeholder="Enter roll no." size="30"><br><br>
+        <label for="name" >Student Name : </label>
+        <input type="text" name="myname" id="name" placeholder="first name" size="30"> - 
+        <input type="text" name="myname" id="name" placeholder="last name" size="30"><br><br>
+        <label for="name" >Father's Name : </label>
+        <input type="text" name="myname" id="name" placeholder="father's name" size="30"><br><br>
+        <label for="name" >Mother's Name : </label>
+        <input type="text" name="myname" id="name" placeholder="father's name" size="30"><br><br>
+        <label for="dob">Date of birth :</label>
+        <input type="number" id="dob" name="mydob" placeholder="Day"> -
+        <input type="number" id="dob" name="mydob" placeholder="Month"> -
+        <input type="number" id="dob" name="mydob" placeholder="Year">(dd-mm-yyyy)<br><br>
+        <label for="phoneno">Mobile no : </label>
+        <input type="number" id="Phoneno" name="mobileno" placeholder="Enter mobile no" size="30"> <br><br>
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="myemail" placeholder="Enter email" size="30"> <br><br>
+        <label for="mypass">Password : </label>
+        <input type="password" id="mypass" name="password" placeholder="Enter password" size="30"> <br><br>
+        
+        Gender :
+        <input type="radio"  name="gender">Male 
+        <input type="radio"  name="gender">Female
+        <br>
+        <br>
+        
+        Department :
+        <input type="checkbox" name="mybranch" >CSE
+        <input type="checkbox" name="mybranch" >B.Pharma
+        <input type="checkbox" name="mybranch" >MCA
+        <input type="checkbox" name="mybranch" >BCA
+        <input type="checkbox" name="mybranch" >M.Tech
+        <br>
+        <br>
+        Course : 
+        <select>
+        <optgroup label="--------Select Current Course's---------">
+            <option>Java</option>
+            <option>Python</option>
+            <option>java script</option>
+            <option>Ruby</option>
+            <option>DSA</option>
+        </optgroup>
+        </select>
+        <br><br>
+
+        <label for="city">City :</label>
+        <input type="text" name="mycity" id="city" placeholder="Enter your city" size="40">
+        <br><br>
+
+        <p>Address :</p>
+        <textarea rows="5" cols="30"></textarea> 
+        <br>
+        <br> 
+
+        <input type="submit" value="Register" name="submitit" align="center">
+        
+    </form>
+    
+</body>
+</html>

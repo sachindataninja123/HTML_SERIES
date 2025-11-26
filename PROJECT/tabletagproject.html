@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project on table tag</title>
+</head>
+<body bgcolor="bisque" >
+    <h1 align="center">Project Management</h1>
+
+    <form>
+    <table border="2"  align="center">
+        <table border="2" width="30%" align="center" cellpadding="15">
+            <tr>
+                 <th>Project Name :</th>
+                <th colspan="2"></th> 
+            </tr>
+            <tr>
+                <td>Project Name</td>
+                <td><input type="text" name="pname" placeholder="Project name" size="30" > </td>
+            </tr>
+            <tr>
+                <th>Assigned to :</th>
+                <th colsapn="2"></th>
+            </tr>
+            <tr>
+                <td>Assigned to</td>
+                <td><select>
+                    <option>Lorem</option>
+                    <option>ispum</option>
+                    <option>Dolor</option>
+                    <option>Mohan</option>
+                    <option>Rolla</option>
+                    <option>system</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Start Date</th>
+                <th colspan="2"></th>
+            </tr>
+            <tr>
+                <td>Start Date</td>
+                <td><input type="date" name="Sdate" > </td>
+            </tr>
+            <tr>
+                <th>End Date :</th>
+                <th colsapn="2"></th>
+            </tr>
+            <tr>
+                <td>End Date</td>
+                <td> <input type="date" name="Edate"> </td>
+            </tr>
+            <tr>
+                <th>Priority :</th>
+                <th colspan="2"></th>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td><input type="radio" name="priority" value="High"> High
+                <input type="radio" name="priority" value="Average"> Average
+                <input type="radio" name="priority" value="low">  Low
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit"  value="submit" name="submitbutton"> </td>
+                <td align="center"><input type="reset" value="clear" ></td>
+            </tr>
+       
+        
+    </table>
+</form>
+</body>
+</html>
